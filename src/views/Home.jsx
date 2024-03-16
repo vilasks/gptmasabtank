@@ -1,5 +1,5 @@
-import MyCarousel from '../components/Carousal'
-import MyNavbar from '../components/Navbar'
+import MyCarousel from '../components/Carousal/Carousal'
+import MyNavbar from '../components/Navbar/Navbar'
 
 function Home(){
     return <>

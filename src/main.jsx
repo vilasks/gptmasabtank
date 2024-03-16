@@ -5,7 +5,8 @@ import './index.css'
 
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import About from './views/About.jsx'
-import NotFound from './components/NotFound.jsx'
+import NotFound from './components/NotFound/NotFound.jsx'
+import LoginComponent from './components/Login/LoginComponent.jsx'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: '/about',
     element: <About/>
+  },
+  {
+    path: '/login',
+    element: <LoginComponent/>
   },
   {
     path: '*',
